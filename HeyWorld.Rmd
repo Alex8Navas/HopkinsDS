@@ -8,6 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # **Example of Markdown**
+# **This is a markdown file**
 
 ## R Markdown
 
