@@ -1,0 +1,6 @@
+Con ByTotal se da el tiempo que tarda en ejecutarse la función de alto nivel, 
+pero no se contempla el tiempo que funciones helpers o de bajo nivel que contenga
+esta función de alto nivel puedan consumir, es decir, toma todo el tiempo consumido
+por cada función helper y lo divide por el total de tiempo consumido. Sin embargo, 
+byself sí incluye el tiempo que consumen las funciones de bajo nivel, luego es más completa que
+la anterior para entender cuánto lleva cada proceso, razón por la cual se considera más útil. 
